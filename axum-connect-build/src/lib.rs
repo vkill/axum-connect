@@ -7,7 +7,7 @@ use std::{
     rc::Rc,
 };
 
-use gen::AxumConnectServiceGenerator;
+pub use gen::AxumConnectServiceGenerator;
 
 mod gen;
 
